@@ -1,7 +1,7 @@
 {
-  "name": "MasterGPT",
+  "name": "KalimiGPT",
   "source": "src/index.html",
-  "author": "Imran Kalimi",
+  "author": "Aamir Kalimi",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",

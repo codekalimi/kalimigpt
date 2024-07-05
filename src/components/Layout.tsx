@@ -93,7 +93,7 @@ export function Layout() {
                 >
                     <Link to="/" style={{ textDecoration: 'none' }}>
                         <h2 style={{ color: "#27B882", display: "block" }}>
-                            MasterGPT
+                            KalimiGPT
                         </h2>
                     </Link>
                 </Box>

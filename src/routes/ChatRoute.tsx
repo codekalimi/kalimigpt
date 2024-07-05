@@ -275,9 +275,10 @@ export function ChatRoute() {
               })}
               data={[
                 { label: 'GPT-3.5', value: 'gpt-3.5-turbo' },
-                { label: 'GPT-4', value: 'gpt-4o' }
+                { label: 'GPT-4o', value: 'gpt-4o' },
+                { label: 'GPT-4-turbo', value: 'gpt-4-turbo' }
               ]}
-              onChange={async (value: 'gpt-3.5-turbo' | 'gpt-4o') => {
+              onChange={async (value: 'gpt-3.5-turbo' | 'gpt-4o' | 'gpt-4-turbo') => {
                 const model = value;
                 try {
                   await db.settings.update("general", {

@@ -67,7 +67,7 @@ export function IndexRoute() {
                     navigate({ to: `/chats/${id}` });
                   }}
               >
-                MasterGPT
+                KalimiGPT
               </Text>
 
             </Text>
